@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.pyc
+
+# Virtual Environment
+.AirFlow/
+venv/
+
+# Airflow
+logs/
+airflow.db
+airflow.db-shm
+airflow.db-wal
+
+# VS Code
+.vscode/
+
+# Environment files
+.env
