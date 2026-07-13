@@ -30,12 +30,14 @@ birthday-email-airflow/
 │   └── Birthday_wishes.py
 ├── data/
 │   └── employees.csv
+├── Screenshots/
+      ├──  Screenshot 2026-07-13 131800.png
+      ├──  Screenshot 2026-07-13 131943.png
+      ├──  Screenshot 2026-07-13 132428.png
 ├── README.md
 ├── requirements.txt
 └── .gitignore
 ```
-
----
 
 ## Workflow
 
@@ -54,11 +56,7 @@ Send Birthday Emails
       ▼
 Employee Inbox
 ```
-
----
-
 ## How to Run
-
 1. Install Apache Airflow.
 2. Install the SMTP provider.
 3. Configure the Gmail SMTP connection in Airflow.
@@ -66,16 +64,11 @@ Employee Inbox
 5. Start Airflow.
 6. Trigger the DAG or wait for the scheduled run.
 
----
-
 ## Screenshots
-
-You can add screenshots here, such as:
-
 - Airflow Graph View
 - Successful DAG Run
 - Email received in Gmail
----
+
 
 ## Author
 
